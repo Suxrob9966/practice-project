@@ -29,7 +29,7 @@ const AddUser = (props) => {
   };
 
   return (
-    <Card myOwnClassName={styles.input}>
+    <Card className={styles.input}>
       <form onSubmit={addUserHandler}>
         <label htmlFor="username">Username</label>
         <input
